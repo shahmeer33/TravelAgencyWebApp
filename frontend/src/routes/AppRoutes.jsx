@@ -42,6 +42,17 @@ import AbuDhabiCityTour  from '../InternalPages/AbuDhabiCityTour'
 import DubaiAirportDropOff  from '../InternalPages/DubaiAirportDropOff'
 import DubaiAirportPickup from '../InternalPages/DubaiAirportPickup'
 import DubaiAirportPickupAndDropOff from '../InternalPages/DubaiAirportPickupAndDropOff'
+import AirportTransfer4
+ from '../InternalPages/AirportTransfer4'
+import AirportTransfer5
+ from '../InternalPages/AirportTransfer5'
+import AlAinTours1
+ from '../InternalPages/AlAinTours1'
+import Aquarium1
+ from '../InternalPages/Aquarium1'
+import Aquarium2
+ from '../InternalPages/Aquarium2'
+
 
      const AppRoutes = () => {
        return (
@@ -87,8 +98,20 @@ import DubaiAirportPickupAndDropOff from '../InternalPages/DubaiAirportPickupAnd
                       <Route path="/AbuDhabiCityTour"  element={<AbuDhabiCityTour/>} />
                       <Route path="/DubaiAirportDropOff"  element={<DubaiAirportDropOff/>} />  
                        <Route path="/DubaiAirportPickup"  element={<DubaiAirportPickup/>} />  
-                        <Route path="/DubaiAirportPickupAndDropOff"  element={<DubaiAirportPickupAndDropOff/>} />  
+                        <Route path="/DubaiAirportPickupAndDropOff"  element={<DubaiAirportPickupAndDropOff/>} /> 
+                           <Route path="/AirportTransfer4"  element={<AirportTransfer4/>} />  
+                              <Route path="/AirportTransfer5"  element={<AirportTransfer5/>} />  
+                             
+                              
+                              <Route path="/AlAinTours1"  element={< AlAinTours1/>} />
+                              Aquarium1
+                              
+                              <Route path="/Aquarium1"  element={<  Aquarium1/>} />
+                             
+                              <Route path="/Aquarium2"  element={<  Aquarium2/>} />
             </Routes>
+              
+            
                  <Footer/>
      </BrowserRouter>
         )
